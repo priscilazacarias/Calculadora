@@ -42,3 +42,18 @@ button{
   cursor: pointer;
   transition: 0.2s;
 }
+button:hover{
+    background-color: #777;
+}
+button.igual {
+  background-color: #009688;
+  grid-row: span 2;
+}
+
+button.igual:hover {
+  background-color: #00796b;
+}
+
+button.zero {
+  grid-column: span 2;
+}
